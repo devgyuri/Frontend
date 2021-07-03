@@ -1,0 +1,46 @@
+.container {
+  width: 300px;
+}
+a {
+  background-color: #ddd;
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.box {
+  visibility: hidden;
+  background-color: dodgerblue;
+  width: 250px;
+  height: 0px;
+  /* height: 200px; */
+  color: #fff;
+  text-align: center;
+  /* line-height: 0px; */
+  /* opacity: 0%; */
+  /* line-height: 200px; */
+  transition: all 3s;
+
+  /* don't use! */
+  /* transition-property: height; */
+  /* transition-duration: 0.3s; */
+}
+.testBox {
+  text-align: center;
+  background-color: tomato;
+  width: 250px;
+  color: #fff;
+}
+.show {
+  visibility: visible;
+  height: 200px;
+  line-height: 200px;
+}
+.fadeIn {
+  visibility: visible;
+  opacity: 100%;
+}

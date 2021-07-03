@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.menu {
+  padding: 0;
+  list-style: none;
+  width: 200px;
+  border: 1px solid red;
+}
+/* MENU */
+.menu li > a {
+  background-color: #000;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+.sub-menu {
+  border: 1px solid #000;
+  display: block;
+  /* visibility: hidden; */
+  height: auto;
+  overflow: hidden;
+  transition: all 3s;
+}
+.sub-menu a{
+  /* height: 0; */
+  display: block;
+  /* visibility: hidden; */
+  /* overflow: hidden; */
+  text-align: center;
+  text-decoration: none;
+  /* transition: all 3s; */
+}
+.show {
+  visibility: visible;
+  /* display: block; */
+  height: auto;
+  /* background-color: red; */
+  /* display: none; height: 87px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; */
+}
+/* .show a{
+  visibility: visible;
+  display: block;
+  height: auto;
+} */
+.btn {
+  border: 1px solid red;
+  width: 300px;
+}
+.btn span {
+  background-color: #ccc;
+  padding: 5px;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+}
+.btn span.active {
+  background-color: #fff;
+  border: 1px solid #000;
+}
